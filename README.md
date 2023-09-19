@@ -7,5 +7,5 @@ Preferably first one installs [Anaconda](https://docs.anaconda.com/free/anaconda
 
 After installation there is to create a new conda environment which will contain a neede Python version and all the packages.
 
-The command to create new conda is 'conda create --name yourenv', where "yourenv" is the name of your environment.
+The command to create new conda is `conda create --name yourenv`, where "yourenv" is the name of your environment.
 
