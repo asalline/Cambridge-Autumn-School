@@ -19,6 +19,7 @@ From [PyTorch](https://pytorch.org/get-started/locally/)-site one can get the co
 `pip install opencv-python-headless` <br>
 `conda install -c astra-toolbox astra-toolbox` <br>
 `conda install matplotlib` <br>
+In VS Code one can not run (at least this) Jupyter Notebook without the "ipykernel" package. VS Code should ask you if you want to install it. <br>
 `pip install ipykernel`<br>
 
 Lastly one needs to downgrade NumPy and SciPy: <br>
