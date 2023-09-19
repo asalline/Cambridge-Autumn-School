@@ -13,15 +13,15 @@ Then one can activate the environment with command `conda activate yourenv`. (Di
 
 When the environment is activated, one can start to install everything. Next up is alot of lines to execute in your conda environment.
 
-`conda install python=3.9`
-`pip install https://github.com/odlgroup/odl/archive/master.zip`
-From [PyTorch](https://pytorch.org/get-started/locally/)-site one can get the command which installs PyTorch
-`pip install opencv-python-headless`
-`conda install -c astra-toolbox astra-toolbox`
-`conda install matplotlib`
-`pip install ipykernel`
+`conda install python=3.9` <br>
+`pip install https://github.com/odlgroup/odl/archive/master.zip` <br>
+From [PyTorch](https://pytorch.org/get-started/locally/)-site one can get the command which installs PyTorch <br>
+`pip install opencv-python-headless` <br>
+`conda install -c astra-toolbox astra-toolbox` <br>
+`conda install matplotlib` <br>
+`pip install ipykernel`<br>
 
-Lastly one needs to downgrade NumPy and SciPy:
-`python -m pip install numpy==1.23.5`
-`python -m pip install scipy==1.8.1`
+Lastly one needs to downgrade NumPy and SciPy: <br>
+`python -m pip install numpy==1.23.5` <br>
+`python -m pip install scipy==1.8.1` <br>
 
