@@ -26,7 +26,7 @@ Lastly one needs to downgrade NumPy and SciPy: <br>
 `python -m pip install numpy==1.23.5` <br>
 `python -m pip install scipy==1.8.1` <br>
 
-The references for the Learned Gradient Scheme and Learned Primal Dual are below:
-[LGS](https://iopscience.iop.org/article/10.1088/1361-6420/aa9581/pdf)
+The references for the Learned Gradient Scheme and Learned Primal Dual are below: <br>
+[LGS](https://iopscience.iop.org/article/10.1088/1361-6420/aa9581/pdf) <br>
 [LPD](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8271999)
 
