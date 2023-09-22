@@ -143,19 +143,8 @@ def psnr(loss):
     
     return psnr
 
-
 loss_train = nn.MSELoss()
 loss_test = nn.MSELoss()
-
-fbp_reco = fbp_operator(noisy_sinograms[50,0,:,:].cpu().detach().numpy())
-plt.figure()
-plt.imshow(fbp_reco)
-plt.show()
-print(psnr(loss_test(rec_images[50,0,:,:], images[50,0,:,:]).cpu().detach().numpy())**0.5)
-# print('fbp_reco_shape', fbp_reco.size())
-# print('image size', images[50,0,:,:].cpu().detach().numpy().size())
-# print(psnr(loss_test(fbp_operator(noisy_sinograms[50,0,:,:].cpu().detach().numpy()), \
-#                      images[50,0,:,:].cpu().detach().numpy())))
 
 ### Defining evaluation (test) function
 def eval(net, g, f):
