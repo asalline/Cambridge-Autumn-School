@@ -146,10 +146,12 @@ class LGD(nn.Module):
             nn.Conv2d(in_channels=32, out_channels=self.out_channels, \
                                     kernel_size=(3,3), padding=1),
         ]
-        
+
+        ###Weight-sharing, each iterate has the same weight
         # self.layers = nn.Sequential(*LGD_layers)
         # self.layers2 = [self.layers for i in range(n_iter)]
 
+        ### Every iterate has a different weights
         ### Initializing the parameters for every unrolled iteration
         self.layers2 = [nn.Sequential(*LGD_layers) for i in range(n_iter)]
         
